@@ -1,0 +1,423 @@
+body{
+    margin: 0%;
+    width: 100%;
+}
+.nav{
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-style: solid;
+    border-top: 0cap;
+    border-left: 0cap;
+    border-right: 0cap;
+    border-width: 0.1ch;
+    border-color: rgb(155, 155, 155);
+    z-index: 15;
+}
+.logo{
+    width: 125px;
+    height: 20px;
+    cursor: pointer;
+}
+.logodiv{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.menuitems{
+    font-family:'Prompt',sans-serif;
+    font-size: 90%;
+    letter-spacing: 1px;
+    margin-right: 385px;
+    width: 635px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.Sicon{
+    display: flex;
+    align-items: center;
+    margin-right: 38px;
+}
+.searchicon{
+    width: 19px;
+    cursor: pointer;
+}
+
+.container1{
+    display: flex;
+    width: 100%;
+    height:680px;
+}
+.video{
+    width:1385px;
+    height: 653px;
+    object-fit: cover;
+}
+.videodiv{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 20px;
+    position: relative;
+
+}
+.videotext{
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    color: white;
+    font-family:'prompt',sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+}
+.forhim{
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    font-family:'prompt',sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration-line:underline;
+    text-underline-offset:14px;
+    cursor: pointer;
+}
+.forher{
+    position: absolute;
+    left: 110px;
+    top: 60px;
+    font-family:'prompt',sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration-line:underline;
+    text-underline-offset:14px;
+    cursor: pointer;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    margin-top: 4vw;
+    width: 100%;
+    height:800px ;
+}
+.innercontainer2{
+    position: relative;
+}
+.womenbagtext{
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    color: white;
+    font-family:'prompt',sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+}
+.discovertext1{
+    position: absolute;
+    top: 65px;
+    left: 43px;
+    color: white;
+    font-family:'prompt',sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-decoration-line: underline;
+    text-underline-offset: 14px;
+    cursor: pointer;
+}
+.discovertext1>h5{
+    margin: 0%;
+}
+.img2div{
+    position: relative;
+}
+.re-editiontext{
+    position: absolute;
+    top: 15px;
+    left: 43px; 
+    color: white;
+    font-family:'prompt',sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+}
+.goldtext{
+    position: absolute;
+    top: 40px;
+    left: 43px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.discovertext2{
+    position: absolute;
+    top: 65px;
+    left: 43px;
+    color: white;
+    font-family:'prompt',sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-decoration-line: underline;
+    text-underline-offset: 14px;
+    cursor: pointer;
+    
+}
+
+.container3{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    width: 100%;
+    height:800px ;
+}
+.innercontainer3{
+    position: relative;
+}
+.menlaceup{
+    position: absolute;
+    top: 15px;
+    left: 42px;
+    font-family:'prompt',sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+.menbag{
+    position: absolute;
+    top: 15px;
+    left: 42px;
+    font-family:'prompt',sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.container4{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    width: 100%;
+    height:800px ;
+}
+.innercontainer4{
+    position: relative;
+}
+.loaferstext{
+    position: absolute;
+    top: 15px;
+    left: 42px;
+    font-family:'prompt',sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+
+}
+.container5{
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+    width: 100%;
+    
+    
+}
+.container6{
+    display: flex;
+    width: 100%;
+    height: 240px;
+    margin-bottom: 0%;
+}
+
+
+
+.img1{
+    margin-left: 20px;
+    display: flex;
+    width: 683px;
+    height: 785px;
+    cursor: pointer;
+}
+.img2{
+    display: flex;
+    margin-left: 20px;
+    width: 683px;
+    height: 785px;
+    cursor: pointer;
+}
+.lastImgdiv{
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+.Rampwalk{
+    display: flex;
+    width: 930px;
+    position: absolute;
+    top: 60px;
+    left: 230px;
+}
+.innerdiv5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+    height: 685px;
+    width: 1380px;
+    position: relative;
+    
+}
+.ss2024{
+    font-family: 'Prompt',sans-serif;
+    font-size: 31px;
+    letter-spacing:1px;
+    display:inline-block;
+    color: white;
+    margin-bottom: 0%;
+    position: absolute;
+    bottom: 120px;
+    left: 230px;
+
+}
+.Dicons{
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    right: 220px;
+    bottom: 100px;
+
+
+}
+.lefticon{
+    margin-top: 2.5px;
+    margin-right: 30px;
+    width: 18px;
+    height: 18px;
+
+}
+.discoverlast{
+    font-family: 'Prompt',sans-serif;
+    letter-spacing: 2px;
+    font-size: 13px;
+    color: white;
+    margin: 0%;
+    text-decoration-line: underline;
+    text-underline-offset: 14px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 65px;
+    left: 230px;
+
+}
+.News{
+    display: flex;
+    font-family: 'Prompt',sans-serif;
+    font-size: 30px;
+    margin: 0%;
+    letter-spacing: 2px;
+    color:white;
+    rotate: -90deg;
+    transform:translateX(-4vw) ;
+    position: relative;
+    left: -9vw;
+}
+.underscore{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 50;
+}
+.socialmedias{
+    display: flex;
+    width: 240px;
+    margin-left: 10px;
+    margin-top: 70px;
+    justify-content: space-around;
+    height: 20px;
+    cursor: pointer;
+}
+.sec1{
+    width: 400px;
+    
+}
+.sec2{
+    width: 200px;
+    margin-left: 60px;
+}
+.sec3{
+    margin-left: 60px;
+}
+.Co>h6{
+    font-family:'prompt',sans-serif;
+    font-size: small;
+    cursor: pointer;
+}
+.Co>p{
+    font-family:'prompt',sans-serif;
+    font-size:small;
+    font-weight:lighter;
+    cursor: pointer;
+}
+.terms>h6{
+    font-family:'prompt',sans-serif;
+    font-size: small;
+    cursor: pointer;
+}
+.terms>p{
+    font-family:'prompt',sans-serif;
+    font-size:small;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.bottombuttons{
+    display: flex;
+    margin: 0%;
+    width: 100%;
+    height: 50px;
+    border-style: solid;
+    border-top-width: 0.1ch;
+    border-color: rgb(199, 199, 199);
+}
+
+.bottombuttons>p{
+    display: flex;
+    align-items: center;
+    font-family:'prompt',sans-serif;
+    font-size:10px;
+    font-weight: lighter;
+    margin-left: 30px;
+}
+.buttns{
+    margin-left: 30px;
+    display: flex;
+    justify-content:flex-end;
+}
+.worlddiv{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.worldlogo{
+    width: 15px;
+    height: 15px;
+}
+.locdiv{
+    display: flex;
+    align-items: center;
+    margin-left: 640px;
+    cursor: pointer;
+}
+
+.loclogo{
+    width: 15px;
+    height: 15px;
+}
+.rapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
